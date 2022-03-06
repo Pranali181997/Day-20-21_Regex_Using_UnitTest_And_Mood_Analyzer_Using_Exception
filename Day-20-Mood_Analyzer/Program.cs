@@ -11,9 +11,9 @@ namespace Mood_Analyzer
 
             AbilityToCheckMoodHappyOrSad moodanalyser = new AbilityToCheckMoodHappyOrSad();
             string res = moodanalyser.MoodAna("happy");
-            //string res1 = moodanalyser.} HandleException("I am in happy mood");
-                Console.WriteLine(res);
-               // Console.WriteLine(res1);
-        }
-        }
-    }
+            string res1 = moodanalyser.} HandleException("I am in happy mood");
+            Console.WriteLine(res);
+            Console.WriteLine(res1);
+         }
+     }
+ }
