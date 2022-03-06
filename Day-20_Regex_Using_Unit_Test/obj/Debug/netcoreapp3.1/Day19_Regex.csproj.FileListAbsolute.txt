@@ -1,0 +1,19 @@
+C:\Users\Admin\source\repos\BATCH 111\Day19_Regex\obj\Debug\netcoreapp3.1\Day19_Regex.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\BATCH 111\Day19_Regex\obj\Debug\netcoreapp3.1\Day19_Regex.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\BATCH 111\Day19_Regex\obj\Debug\netcoreapp3.1\Day19_Regex.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\BATCH 111\Day19_Regex\obj\Debug\netcoreapp3.1\Day19_Regex.AssemblyInfo.cs
+C:\Users\Admin\source\repos\BATCH 111\Day19_Regex\obj\Debug\netcoreapp3.1\Day19_Regex.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\BATCH 111\Day-20-Unit Test\obj\Debug\netcoreapp3.1\Day19_Regex.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\BATCH 111\Day-20-Unit Test\obj\Debug\netcoreapp3.1\Day19_Regex.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\BATCH 111\Day-20-Unit Test\obj\Debug\netcoreapp3.1\Day19_Regex.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\BATCH 111\Day-20-Unit Test\obj\Debug\netcoreapp3.1\Day19_Regex.AssemblyInfo.cs
+C:\Users\Admin\source\repos\BATCH 111\Day-20-Unit Test\obj\Debug\netcoreapp3.1\Day19_Regex.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\BATCH 111\Day-20-Unit Test\bin\Debug\netcoreapp3.1\Day19_Regex.exe
+C:\Users\Admin\source\repos\BATCH 111\Day-20-Unit Test\bin\Debug\netcoreapp3.1\Day19_Regex.deps.json
+C:\Users\Admin\source\repos\BATCH 111\Day-20-Unit Test\bin\Debug\netcoreapp3.1\Day19_Regex.runtimeconfig.json
+C:\Users\Admin\source\repos\BATCH 111\Day-20-Unit Test\bin\Debug\netcoreapp3.1\Day19_Regex.runtimeconfig.dev.json
+C:\Users\Admin\source\repos\BATCH 111\Day-20-Unit Test\bin\Debug\netcoreapp3.1\Day19_Regex.dll
+C:\Users\Admin\source\repos\BATCH 111\Day-20-Unit Test\bin\Debug\netcoreapp3.1\Day19_Regex.pdb
+C:\Users\Admin\source\repos\BATCH 111\Day-20-Unit Test\obj\Debug\netcoreapp3.1\Day19_Regex.dll
+C:\Users\Admin\source\repos\BATCH 111\Day-20-Unit Test\obj\Debug\netcoreapp3.1\Day19_Regex.pdb
+C:\Users\Admin\source\repos\BATCH 111\Day-20-Unit Test\obj\Debug\netcoreapp3.1\Day19_Regex.genruntimeconfig.cache
