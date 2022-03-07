@@ -12,13 +12,9 @@ namespace Mood_Analyser_Programs
             Console.WriteLine("Welcome to the Mood Analyser Problem!");
 
 
-            //AbilityToCheckMoodHappyOrSad moodanalyser = new AbilityToCheckMoodHappyOrSad();
-            //string res = moodanalyser.MoodAna("happy");
-            //Console.WriteLine(res);
-
-            MoodAnalyzer mood = new MoodAnalyzer("happy");
-            string res1 = mood.Analyzer();
-            Console.WriteLine(res1);
+            AbilityToCheckMoodHappyOrSad moodanalyser = new AbilityToCheckMoodHappyOrSad();
+            string res = moodanalyser.MoodAna("happy");
+            Console.WriteLine(res);
 
         }
     }
