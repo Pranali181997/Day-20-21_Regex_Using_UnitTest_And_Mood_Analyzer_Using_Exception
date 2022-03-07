@@ -1,6 +1,9 @@
 ﻿using System;
+using Mood_Analyser_Programs;
+using Mood_Analyzer;
+using static Mood_Analyzer.MoodAnalyzer;
 
-namespace Mood_Analyzer
+namespace Mood_Analyser_Programs
 {
     class Program
     {
@@ -9,11 +12,14 @@ namespace Mood_Analyzer
             Console.WriteLine("Welcome to the Mood Analyser Problem!");
 
 
-            AbilityToCheckMoodHappyOrSad moodanalyser = new AbilityToCheckMoodHappyOrSad();
-            string res = moodanalyser.MoodAna("happy");
-            string res1 = moodanalyser.} HandleException("I am in happy mood");
-            Console.WriteLine(res);
+            //AbilityToCheckMoodHappyOrSad moodanalyser = new AbilityToCheckMoodHappyOrSad();
+            //string res = moodanalyser.MoodAna("happy");
+            //Console.WriteLine(res);
+
+            MoodAnalyzer mood = new MoodAnalyzer("happy");
+            string res1 = mood.Analyzer();
             Console.WriteLine(res1);
-         }
-     }
- }
+
+        }
+    }
+}

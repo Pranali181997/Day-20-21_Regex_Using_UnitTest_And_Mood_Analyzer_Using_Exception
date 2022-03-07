@@ -8,8 +8,6 @@ namespace Day19_Regex
     public class LastName
     {
         public static string REGEX_NAME = "^[A-Z]{1}[a-z]{1,}$";
-
-
         public bool validateName(string Name)
         {
             return Regex.IsMatch(Name, REGEX_NAME);
