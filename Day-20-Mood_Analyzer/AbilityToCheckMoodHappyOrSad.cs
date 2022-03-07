@@ -6,18 +6,37 @@ namespace Mood_Analyzer
 {
     public class AbilityToCheckMoodHappyOrSad
     {
-        //message field
-        public string message;
-
-        public string MoodAna(string message)
+        
+         /* UC2:- Given Null Mood Should Return Happy To make this Test Case pass Handle.            
+   */
+    public class MoodAnalyzer
+    {
+        public string message;  //instance variable      
+        public MoodAnalyzer(string message) //parameterized constructor for intilizing instance member
         {
-            if (message.ToLower().Contains("sad"))
+            this.message = message;
+        }
+        public string Analyzer()  //Analyzer method find mood
+        {
+            try
             {
-                return "SAD";
+                if (message == null)
+                {
+                    throw new MoodException(MoodException.ExpType.Null_Message, "happy");
+                }
+
+                if (message.ToLower().Contains("sad"))
+                {
+                    return "sad";
+                }
+                else
+                {
+                    return "happy";
+                }
             }
-            else
+            catch (NullReferenceException ex)
             {
-                return "HAPPY";
+                throw new MoodException(MoodException.ExpType.Null_Message, "Invalid");
             }
         }
 

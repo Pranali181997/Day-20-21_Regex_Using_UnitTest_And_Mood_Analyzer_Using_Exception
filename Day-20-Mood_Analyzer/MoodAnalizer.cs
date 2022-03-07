@@ -7,32 +7,46 @@ namespace TestProject1
     [TestClass]
     public class MoodAnalizer
     {
+       
+        /* UC2:- Handle Exception if User Provides Invalid Mood
+         */
         [TestMethod]
-        public void CheckForSadMood()
+        public void Given_Nullmood_Expecting_Exception_Result()  //Method
         {
-            AbilityToCheckMoodHappyOrSad mood = new AbilityToCheckMoodHappyOrSad();
-            string expected = "SAD";
-            string actual = mood.MoodAna("Sad");
-            Assert.AreEqual(expected, actual);
-        }
-        /* UC-1-1.1*/
-        [TestMethod]
-        public void CheckForIamInSadMood()
-        {
-            AbilityToCheckMoodHappyOrSad mood = new AbilityToCheckMoodHappyOrSad();
-            string expected = "SAD";
-            string actual = mood.MoodAna("IamInSadMood");
-            Assert.AreEqual(expected, actual);
+            try
+            {
+                string empty = " ";
+                MoodAnalyzer mood = new MoodAnalyzer(empty);
+                string expected = "invalid";
+
+                string actual = mood.Analyzer();    //act
+            }
+
+            catch ( MoodException e )
+            {
+                Assert.AreEqual("invalid", e.Message);  //Assert
+            }
+            
         }
 
-        /* UC-1-1.2*/
+        /* TC 2.1:- Given Null Mood Should Return Happy.
+                   - To make this Test Case pass Handle NULL Scenario using try catch and return Happy.
+        */
         [TestMethod]
-        public void CheckForIamInAnyMood()
+        public void Given_Nullmood_Expecting_happy_Result()  //Method
         {
-            AbilityToCheckMoodHappyOrSad mood = new AbilityToCheckMoodHappyOrSad();
-            string expected = "HAPPY";
-            string actual = mood.MoodAna("IamInAnyMood");
-            Assert.AreEqual(expected, actual);
+            try
+            {
+                string empty = null;
+                MoodAnalyzer mood = new MoodAnalyzer(empty); //Create object and arrange 
+                string expected = "happy";
+
+                string actual = mood.Analyzer();    //act
+            }
+            catch (MoodException e)
+            {
+                Assert.AreEqual("happy", e.Message);  //Assert
+            }
         }
 
     }
