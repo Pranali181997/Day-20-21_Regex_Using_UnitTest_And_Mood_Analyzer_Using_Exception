@@ -1,12 +1,12 @@
 ﻿using System;
 
-namespace Day_21_Reflection_Problem
+namespace MoodAnalyzer_Reflection
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Welcome to Mood Analyser App!");
         }
     }
 }

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\Day-21-Reflection_Problem\\Day-21-Reflection_Problem.csproj",
-      "projectName": "Day-21-Reflection_Problem",
-      "projectPath": "C:\\Users\\Admin\\source\\repos\\Day-21-Reflection_Problem\\Day-21-Reflection_Problem.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\MoodAnalyzer_Reflection\\MoodAnalyzer_Reflection.csproj",
+      "projectName": "MoodAnalyzer_Reflection",
+      "projectPath": "C:\\Users\\Admin\\source\\repos\\MoodAnalyzer_Reflection\\MoodAnalyzer_Reflection.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\source\\repos\\Day-21-Reflection_Problem\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\source\\repos\\MoodAnalyzer_Reflection\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
