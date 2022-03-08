@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Mood_Analyzer
+namespace Day_21_Reflection_Problem
 {
-    public class MoodException : Exception
+    public class MoodAnalysisException :Exception
     {
         public enum ExpType
         {
@@ -12,7 +12,7 @@ namespace Mood_Analyzer
         }
         public readonly ExpType type;
 
-        public MoodException(ExpType type, string message) : base(message)
+        public MoodAnalysisException(ExpType type, string message) : base(message)
         {
             this.type = type;
         }

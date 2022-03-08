@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\source\\repos\\Mood_Analyzer\\Mood_Analyzer.csproj": {}
+    "C:\\Users\\Admin\\source\\repos\\Day-21-Reflection_Problem\\Day-21-Reflection_Problem.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\source\\repos\\Mood_Analyzer\\Mood_Analyzer.csproj": {
+    "C:\\Users\\Admin\\source\\repos\\Day-21-Reflection_Problem\\Day-21-Reflection_Problem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\Mood_Analyzer\\Mood_Analyzer.csproj",
-        "projectName": "Mood_Analyzer",
-        "projectPath": "C:\\Users\\Admin\\source\\repos\\Mood_Analyzer\\Mood_Analyzer.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\Day-21-Reflection_Problem\\Day-21-Reflection_Problem.csproj",
+        "projectName": "Day-21-Reflection_Problem",
+        "projectPath": "C:\\Users\\Admin\\source\\repos\\Day-21-Reflection_Problem\\Day-21-Reflection_Problem.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\source\\repos\\Mood_Analyzer\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\source\\repos\\Day-21-Reflection_Problem\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
